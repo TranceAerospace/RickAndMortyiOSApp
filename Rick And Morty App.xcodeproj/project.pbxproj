@@ -11,6 +11,7 @@
 		9F81C50D2960F4FA00DE88B9 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81C50C2960F4FA00DE88B9 /* RMSingleLocation.swift */; };
 		9F81C50F2960F5C100DE88B9 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81C50E2960F5C100DE88B9 /* RMCharacterStatus.swift */; };
 		9F81C5112960F5EC00DE88B9 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81C5102960F5EC00DE88B9 /* RMCharacterGender.swift */; };
+		9FA6FCCA29644F50007CA047 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6FCC929644F50007CA047 /* RMGetAllCharactersResponse.swift */; };
 		9FB5FB7A296089A700F16064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5FB79296089A700F16064 /* AppDelegate.swift */; };
 		9FB5FB7C296089A700F16064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5FB7B296089A700F16064 /* SceneDelegate.swift */; };
 		9FB5FB7E296089A700F16064 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5FB7D296089A700F16064 /* RMTabBarController.swift */; };
@@ -33,6 +34,7 @@
 		9F81C50C2960F4FA00DE88B9 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 		9F81C50E2960F5C100DE88B9 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
 		9F81C5102960F5EC00DE88B9 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
+		9FA6FCC929644F50007CA047 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		9FB5FB76296089A700F16064 /* Rick And Morty App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick And Morty App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB5FB79296089A700F16064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FB5FB7B296089A700F16064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FA6FCC729644F11007CA047 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5FB9329608C4B00F16064 /* RMLocation.swift */,
+				9F81C50C2960F4FA00DE88B9 /* RMSingleLocation.swift */,
+				9FB5FB9529608C5A00F16064 /* RMCharacter.swift */,
+				9F81C5102960F5EC00DE88B9 /* RMCharacterGender.swift */,
+				9F81C50E2960F5C100DE88B9 /* RMCharacterStatus.swift */,
+				9FB5FB9729608C6200F16064 /* RMEpisode.swift */,
+				9F81C50A2960F46700DE88B9 /* RMOrigin.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		9FA6FCC829644F21007CA047 /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				9FA6FCC929644F50007CA047 /* RMGetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
+			sourceTree = "<group>";
+		};
 		9FB5FB6D296089A700F16064 = {
 			isa = PBXGroup;
 			children = (
@@ -111,13 +135,8 @@
 		9FB5FB8F29608BA100F16064 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9FB5FB9329608C4B00F16064 /* RMLocation.swift */,
-				9F81C50C2960F4FA00DE88B9 /* RMSingleLocation.swift */,
-				9FB5FB9529608C5A00F16064 /* RMCharacter.swift */,
-				9F81C5102960F5EC00DE88B9 /* RMCharacterGender.swift */,
-				9F81C50E2960F5C100DE88B9 /* RMCharacterStatus.swift */,
-				9FB5FB9729608C6200F16064 /* RMEpisode.swift */,
-				9F81C50A2960F46700DE88B9 /* RMOrigin.swift */,
+				9FA6FCC829644F21007CA047 /* APIResponseTypes */,
+				9FA6FCC729644F11007CA047 /* DataTypes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,6 +253,7 @@
 			files = (
 				9F81C50B2960F46700DE88B9 /* RMOrigin.swift in Sources */,
 				9F81C50D2960F4FA00DE88B9 /* RMSingleLocation.swift in Sources */,
+				9FA6FCCA29644F50007CA047 /* RMGetAllCharactersResponse.swift in Sources */,
 				9F81C50F2960F5C100DE88B9 /* RMCharacterStatus.swift in Sources */,
 				9F81C5112960F5EC00DE88B9 /* RMCharacterGender.swift in Sources */,
 				9FB5FB9D29608CF100F16064 /* RMLocationViewController.swift in Sources */,
